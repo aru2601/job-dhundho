@@ -1,0 +1,66 @@
+{
+  "name": "jobsharex",
+  "version": "1.1.2",
+  "description": "This is the react job and internship website.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rohitashsingh89/jobsharex.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs"
+  ],
+  "author": "Rohitash Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rohitashsingh89/jobsharex.git"
+  },
+  "homepage": "https://jobsharex.netlify.app/",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "sass src/assets/scss/jobx.scss src/assets/css/style.css",
+    "minify-sass": "sass src/assets/scss/jobx.scss src/assets/css/style.min.css --style compressed"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "axios": "^1.6.0",
+    "bootstrap": "4.6.2",
+    "classnames": "2.3.2",
+    "headroom.js": "0.12.0",
+    "moment": "2.29.4",
+    "nouislider": "15.4.0",
+    "react": ">=16.0.0",
+    "react-datetime": "3.2.0",
+    "react-dom": ">=16.0.0",
+    "react-router-dom": "6.11.1",
+    "react-scripts": "^5.0.1",
+    "reactstrap": "8.10.0",
+    "sass": "1.62.1"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
+  },
+  "devDependencies": {
+    "@types/markerclustererplus": "2.1.33",
+    "@types/react": "18.2.6",
+    "eslint-plugin-flowtype": "8.0.3",
+    "jquery": "3.7.0"
+  },
+  "overrides": {
+    "svgo": "3.0.2"
+  }
+}
